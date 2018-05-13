@@ -23,7 +23,3 @@ def most_frequent_k_mer (Text, k):
       if Counter_list[d] == max(Counter_list):
          most_frequent_k_mer_list += [[k_mer_list[d]] + [Counter_list[d]]]
    return most_frequent_k_mer_list
-      
-      
-      
-      
