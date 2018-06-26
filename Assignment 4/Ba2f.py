@@ -21,7 +21,6 @@ def Score(MotifList): #Attempt to find the Score (which is the Hamming Distance?
 
 def randomizedsearch(Dna, k):
     t = len(Dna)
-    global MotifList
     MotifList = []
     from random import randint
     a = randint(0, len(Dna[0])-k)
